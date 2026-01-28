@@ -31,7 +31,7 @@
     │       ├── psu_pspartpicker.json
     │       ├── ram_pspartpicker.json
     │       └── storage_pspartpicker.json
-    └── processors
+    └── techpowerup
         ├── productos_cpu.csv
         └── productos_cpu.json
 ```
