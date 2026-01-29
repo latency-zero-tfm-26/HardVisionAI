@@ -23,7 +23,7 @@ Este repositorio contiene varios cuadernos de Jupyter que se utilizan para difer
 ### 1. Construir y levantar el contenedor
 
 ```bash
-docker build -f Dockerfile.jupyter -t jupyter-python .
+docker build -f notebooks/Dockerfile.jupyter -t jupyter-python .
 ```
 
 ```bash
