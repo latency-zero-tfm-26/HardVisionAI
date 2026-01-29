@@ -3,9 +3,13 @@
 ```
 .
 ├── README.md
+├── images
+│   ├── ...
 ├── processed
 │   ├── components_01.csv
 │   └── components_01.json
+│   └── components_01_with_local_paths.csv
+│   └── dataset_vectorized.csv
 └── raw
     ├── pccomponentes
     │   ├── productos_pccomponentes.csv

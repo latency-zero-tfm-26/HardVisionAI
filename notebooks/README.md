@@ -2,7 +2,9 @@
 
 Este repositorio contiene varios cuadernos de Jupyter que se utilizan para diferentes propósitos.
 
-##  Web scraping /scraping
+## Notebooks
+
+###  Web scraping `/scraping`
 
 | Nombre del Cuaderno | Descripción |
 |---------------------|-------------|
@@ -11,16 +13,21 @@ Este repositorio contiene varios cuadernos de Jupyter que se utilizan para difer
 | `scraping_pcpartpicker.ipynb` | Este cuaderno se utiliza para realizar scraping de datos de PCPartPicker. |
 
 
-## Dataset
+### Datasets
 
 | Nombre del Cuaderno | Descripción |
 |---------------------|-------------|
 | `dataset_01.ipynb` | Este cuaderno se utiliza para crear el conjunto de datos que se empleará para entrenar nuestro modelo. |
-| `dataset_02.ipynb` | Este cuaderno se utiliza para descargar las imágenes y crear el conjunto de datos definitivo, incluyendo la ubicación de cada imagen. |
+| `dataset_02.ipynb` | Este cuaderno se utiliza para descargar las imágenes y crear el conjunto de datos. |
+| `dataset_03.ipynb` | Este cuaderno se utiliza para crear el dataset definitivo. |
 
 ## 🐳 Ejecutar con Docker
 
 ### 1. Construir y levantar el contenedor
+
+> [!IMPORTANT]  
+> Ejecutar desde la raíz del proyecto.
+>
 
 ```bash
 docker build -f notebooks/Dockerfile.jupyter -t jupyter-python .
