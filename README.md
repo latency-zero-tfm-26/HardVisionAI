@@ -1,8 +1,32 @@
-# HardVisionAI
+# 🖥️ HardVisionAI
 
-Es un modelo de visión artificial diseñado para identificar componentes de PC a partir de imágenes y extraer automáticamente información técnica relevante como marca, modelo y especificaciones.
+**HardVisionAI** es un modelo de visión artificial diseñado para identificar componentes de PC a partir de imágenes y extraer automáticamente información técnica relevante, como marca, modelo y especificaciones.
 
-## 🐳 Ejecutar con Docker
+Este modelo forma parte de nuestro **Trabajo Fin de Máster (TFM)** del Máster de FP en Inteligencia Artificial y Big Data, contribuyendo al desarrollo de herramientas avanzadas de análisis y procesamiento de información.
+
+En este proyecto estará disponible una demo del modelo en la plataforma Streamlit, permitiendo realizar pruebas interactivas y explorar su funcionamiento.
+
+## 🗃️ Obtención de datos
+
+Los datos utilizados para entrenar los modelos se obtuvieron mediante técnicas de **web scraping** y fueron posteriormente recopilados y procesados para su análisis y preparación en este proyecto.
+
+Las fuentes de información incluyeron sitios web especializados en componentes de PC:  
+
+- [PCComponentes](https://www.pccomponentes.com)  
+- [TechPowerUp](https://www.techpowerup.com)  
+- [PCPartPicker](https://pcpartpicker.com)
+
+Estos portales proporcionan información detallada sobre marcas, modelos y especificaciones técnicas, lo que permitió construir un dataset representativo y de calidad para el entrenamiento del modelo.
+
+## 🛠️ Stack Tecnológico
+
+El proyecto HardVisionAI utiliza dos versiones de Python según el módulo:
+
+- **Python 3.14.0** → utilizado para la mayor parte del proyecto, incluyendo web scraping, procesamiento de datasets y el modelo OCR.  
+- **Python 3.12** → utilizado únicamente para el entrenamiento de la red neuronal, debido a compatibilidades con algunas librerías específicas.
+
+
+## 🐳 Ejecutar Streamlit con Docker
 
 ### 1. Construir y levantar el contenedor
 
@@ -18,8 +42,23 @@ http://localhost:8501
 
 ## 👤 Créditos
 
-[Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR)
+### 👨‍💻 Autores del proyecto
 
-[Alvaro López Guerrero](https://github.com/Alvalogue72)
+* [Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR)
+* [Alvaro López Guerrero](https://github.com/Alvalogue72)
+* [Andrei Munteanu Popa](https://github.com/andu8705)
 
-[Andrei Munteanu Popa](https://github.com/andu8705)
+Máster de FP en Inteligencia Artifical y Big Data - CPIFP Alan Turing - `Curso 2025/2026`
+
+<img src="./img/alan_turing.png" width="150"/>
+
+### 📄 Licencia
+
+Este proyecto está protegido por derechos de autor. No se permite su uso, copia, modificación, distribución ni creación de obras derivadas sin autorización expresa de los autores.
+
+© 2026 Alejandro-BR, Alvalogue72, andu8705. Todos los derechos reservados.  
+Para consultas o permisos especiales, contactar a: [latencyzero.tfm@gmail.com](mailto:latencyzero.tfm@gmail.com)
+
+---
+
+⭐ Si te ha gustado este repo, dale una estrellita 😉

@@ -1,22 +1,29 @@
 # Documentación de Notebooks
 
-Este repositorio contiene varios cuadernos de Jupyter que se utilizan para diferentes propósitos.
+Este repositorio contiene todos los cuadernos de Jupyter utilizados a lo largo del proyecto **HardVisionAI**, desde la obtención de datos hasta el procesamiento OCR y entrenamiento de modelos de visión artificial.
 
-## Notebooks
+
+
+## 📒 Notebooks principales
+
+Estos notebooks contienen todos los pasos del proyecto, desde la recopilación y limpieza de datos hasta el entrenamiento de modelos y extracción de información mediante OCR.
 
 | Nombre del Cuaderno | Descripción |
 |---------------------|-------------|
-| `create_and_clean_dataset.ipynb` | Crea el dataset original con las URLs de las imágenes y su label. |
+| `create_and_clean_dataset.ipynb` | Crea el dataset original con las URLs de las imágenes y sus etiquetas (labels). |
 | `dataset_processing.ipynb` | Transforma el dataset guardando imágenes localmente y convirtiendo etiquetas a valores numéricos. |
-| `model_training.ipynb` | Entrenamiento de la red neuronal. |
+| `model_training.ipynb` | Entrenamiento de la red neuronal para la clasificación de componentes de PC. |
+| `model_ocr.ipynb` | Aplica OCR a las imágenes del dataset para extraer texto, marcas, modelos y especificaciones.|
 
-###  Web scraping `/scraping`
+## 🌐 Web scraping `/scraping`
+
+Estos notebooks realizan la extracción de datos desde distintas fuentes web de componentes de PC.
 
 | Nombre del Cuaderno | Descripción |
 |---------------------|-------------|
-| `scraping_pccomponentes.ipynb` | Este cuaderno se utiliza para realizar scraping de datos de componentes de PC. |
-| `scraping_processors.ipynb` | Este cuaderno se utiliza para realizar scraping de datos de procesadores. |
-| `scraping_pcpartpicker.ipynb` | Este cuaderno se utiliza para realizar scraping de datos de PCPartPicker. |
+| `scraping_pccomponentes.ipynb` | Realiza scraping de datos de componentes de PC desde PCComponentes. |
+| `scraping_processors.ipynb` | Realiza scraping de datos específicos de procesadores. |
+| `scraping_pcpartpicker.ipynb`| Realiza scraping de datos de componentes desde PCPartPicker. |
 
 ## 🐳 Ejecutar con Docker
 

@@ -1,4 +1,14 @@
-# Data
+# 🗃️ Data
+
+Los datos utilizados para entrenar los modelos se obtuvieron mediante técnicas de **web scraping** y fueron posteriormente recopilados y procesados para su análisis y preparación en este proyecto.
+
+Las fuentes de información incluyeron sitios web especializados en componentes de PC:  
+
+- [PCComponentes](https://www.pccomponentes.com)  
+- [TechPowerUp](https://www.techpowerup.com)  
+- [PCPartPicker](https://pcpartpicker.com)
+
+Estos portales proporcionan información detallada sobre marcas, modelos y especificaciones técnicas, lo que permitió construir un dataset representativo y de calidad para el entrenamiento del modelo.
 
 ```
 .
