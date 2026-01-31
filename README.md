@@ -1,3 +1,4 @@
+![logo](/img/HardVisionAI.png)
 # 🖥️ HardVisionAI
 
 **HardVisionAI** es un modelo de visión artificial diseñado para identificar componentes de PC a partir de imágenes y extraer automáticamente información técnica relevante, como marca, modelo y especificaciones.
