@@ -19,7 +19,8 @@ Estos portales proporcionan información detallada sobre marcas, modelos y espec
 │   ├── components_01.csv
 │   ├── components_01.json
 │   ├── components_02.csv
-│   └── components_03.csv    
+│   └── components_03.csv
+│   └── components_04.csv
 └── raw
     ├── pccomponentes
     │   ├── productos_pccomponentes.csv
