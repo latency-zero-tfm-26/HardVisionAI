@@ -9,7 +9,19 @@ En este proyecto estará disponible una demo del modelo en la plataforma Streaml
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hardvisionai.streamlit.app/)
 
+## 🎬 Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hardvisionai.streamlit.app/)
+[![YouTube Demo](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://www.youtube.com/watch?v=TU_ID_DEL_VIDEO)
+
+<!-- Álvaro: sustituye TU_ID_DEL_VIDEO por el ID real del vídeo -->
+
+### ▶️ Vista previa del funcionamiento
+  
 https://github.com/user-attachments/assets/31468a2c-441f-4373-88c2-5cc0c963afbf
+
+![demo](/img/demo1.png)  
+![demo](/img/demo2.png)  
 
 ## 🗃️ Obtención de datos
 
