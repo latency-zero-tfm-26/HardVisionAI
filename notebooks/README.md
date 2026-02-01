@@ -25,27 +25,59 @@ Estos notebooks realizan la extracción de datos desde distintas fuentes web de 
 | `scraping_processors.ipynb` | Realiza scraping de datos específicos de procesadores. |
 | `scraping_pcpartpicker.ipynb`| Realiza scraping de datos de componentes desde PCPartPicker. |
 
-## 🐳 Ejecutar con Docker
+## 🐍 Versiones de Python
 
-Utiliza el entorno proporcionado por la imagen `Dockerfile.jupyter`.
+El proyecto **HardVisionAI** utiliza **dos versiones de Python**, cada una para diferentes módulos:
+
+* **Python 3.14.0**
+  Utilizado para la mayor parte del proyecto, incluyendo:
+
+  * Web scraping
+  * Procesamiento de datasets
+  * Modelos OCR
+
+* **Python 3.12.0**
+  Utilizado únicamente para el **entrenamiento de la red neuronal**, debido a compatibilidades con algunas librerías específicas.
 
 
-### 1. Construir y levantar el contenedor
+## ⚡ Ejecutar notebooks en entorno local
 
-> [!IMPORTANT]  
-> Ejecutar desde la raíz del proyecto.
->
+1. **Crear el entorno virtual**
 
-```bash
-docker build -f notebooks/Dockerfile.jupyter -t jupyter-python notebooks
-```
+   ```bash
+   python -m venv venv
+   ```
 
-```bash
-docker run -p 8888:8888 -v ${PWD}:/app jupyter-python
-```
+2. **Activar el entorno**
 
-### 2. Abrir en el navegador
+   * En **Linux / macOS**:
 
-```
-http://localhost:8888/tree
-```
+     ```bash
+     source venv/bin/activate
+     ```
+   * En **Windows**:
+
+     ```cmd
+     venv\Scripts\activate
+     ```
+
+3. **Instalar dependencias**
+
+   * **Para la mayoría de los notebooks** (Python 3.14 o entorno principal):
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+   * **Para el notebooks de entrenamiento de modelos** (requieren Python 3.12):
+
+     ```bash
+     pip install -r requirements-py12.txt
+     ```
+
+4. **Ejecutar Jupyter Notebook**
+
+   ```bash
+   pip install notebook
+   jupyter notebook
+   ```
