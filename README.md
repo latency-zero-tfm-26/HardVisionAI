@@ -9,6 +9,8 @@ En este proyecto estará disponible una demo del modelo en la plataforma Streaml
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hardvisionai.streamlit.app/)
 
+https://github.com/user-attachments/assets/31468a2c-441f-4373-88c2-5cc0c963afbf
+
 ## 🗃️ Obtención de datos
 
 Los datos utilizados para entrenar los modelos se obtuvieron mediante técnicas de **web scraping** y fueron posteriormente recopilados y procesados para su análisis y preparación en este proyecto.
@@ -95,4 +97,3 @@ Para consultas o permisos especiales, contactar a: [latencyzero.tfm@gmail.com](m
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/Latency-Zero-tfm/HardVisionAI?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/Latency-Zero-tfm/HardVisionAI)
-![GitHub Issues](https://img.shields.io/github/issues/Latency-Zero-tfm/HardVisionAI)
