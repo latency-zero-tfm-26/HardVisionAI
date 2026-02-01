@@ -7,6 +7,8 @@ Este modelo forma parte de nuestro **Trabajo Fin de Máster (TFM)** del Máster 
 
 En este proyecto estará disponible una demo del modelo en la plataforma Streamlit, permitiendo realizar pruebas interactivas y explorar su funcionamiento.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hardvisionai.streamlit.app/)
+
 ## 🗃️ Obtención de datos
 
 Los datos utilizados para entrenar los modelos se obtuvieron mediante técnicas de **web scraping** y fueron posteriormente recopilados y procesados para su análisis y preparación en este proyecto.
@@ -19,13 +21,15 @@ Las fuentes de información incluyeron sitios web especializados en componentes 
 
 Estos portales proporcionan información detallada sobre marcas, modelos y especificaciones técnicas, lo que permitió construir un dataset representativo y de calidad para el entrenamiento del modelo.
 
-## 🛠️ Stack Tecnológico
+## 🐍 Stack Tecnológico
 
-El proyecto HardVisionAI utiliza dos versiones de Python según el módulo:
+El proyecto HardVisionAI utiliza **Python 3.12** para todo el código:
 
-- **Python 3.14.0** → utilizado para la mayor parte del proyecto, incluyendo web scraping, procesamiento de datasets y el modelo OCR.  
-- **Python 3.12** → utilizado únicamente para el entrenamiento de la red neuronal, debido a compatibilidades con algunas librerías específicas.
-
+- Web scraping
+- Procesamiento de datasets
+- Modelos OCR
+- Entrenamiento de redes neuronales
+- Streamlit
 
 ## 🐳 Ejecutar Streamlit con Docker
 

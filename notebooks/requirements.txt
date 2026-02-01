@@ -1,4 +1,10 @@
 pandas
+numpy
+matplotlib
+seaborn
+opencv-python
+tqdm
+tensorflow
 cloudscraper
 beautifulsoup4
 setuptools
@@ -6,11 +12,6 @@ undetected-chromedriver
 selenium
 webdriver-manager
 requests
-numpy
-matplotlib
-seaborn
-opencv-python
-tqdm
 easyocr
 Pillow
 wordcloud

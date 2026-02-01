@@ -26,19 +26,17 @@ Estos notebooks realizan la extracción de datos desde distintas fuentes web de 
 | `scraping_processors.ipynb` | Realiza scraping de datos específicos de procesadores. |
 | `scraping_pcpartpicker.ipynb`| Realiza scraping de datos de componentes desde PCPartPicker. |
 
-## 🐍 Versiones de Python
+## 🐍 Versión de Python
 
-El proyecto **HardVisionAI** utiliza **dos versiones de Python**, cada una para diferentes módulos:
+El proyecto HardVisionAI utiliza Python 3.12 para todo el código, incluyendo:
 
-* **Python 3.14.0**
-  Utilizado para la mayor parte del proyecto, incluyendo:
+* Web scraping
+* Procesamiento de datasets
+* Modelos OCR
+* Entrenamiento de redes neuronales
 
-  * Web scraping
-  * Procesamiento de datasets
-  * Modelos OCR
-
-* **Python 3.12.0**
-  Utilizado únicamente para el **entrenamiento de la red neuronal**, debido a compatibilidades con algunas librerías específicas.
+> [!NOTE]
+> Asegúrate de instalar Python 3.12 antes de crear el entorno virtual para que todos los notebooks y la demo funcionen correctamente.
 
 
 ## ⚡ Ejecutar notebooks en entorno local
@@ -64,16 +62,8 @@ El proyecto **HardVisionAI** utiliza **dos versiones de Python**, cada una para 
 
 3. **Instalar dependencias**
 
-   * **Para la mayoría de los notebooks** (Python 3.14 o entorno principal):
-
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-   * **Para el notebooks de entrenamiento de modelos** (requieren Python 3.12):
-
-     ```bash
-     pip install -r requirements-py12.txt
+    ```bash
+    ip install -r requirements.txt
      ```
 
 4. **Ejecutar Jupyter Notebook**

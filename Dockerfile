@@ -22,5 +22,4 @@ COPY . .
 
 EXPOSE 8501
 
-# Ajusta aquí el nombre de tu fichero si es streamlit_app.py o app.py
 CMD ["streamlit", "run", "streamlit_app.py", "--server.address=0.0.0.0"]
