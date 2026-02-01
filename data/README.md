@@ -10,6 +10,9 @@ Las fuentes de información incluyeron sitios web especializados en componentes 
 
 Estos portales proporcionan información detallada sobre marcas, modelos y especificaciones técnicas, lo que permitió construir un dataset representativo y de calidad para el entrenamiento del modelo.
 
+
+![dataset](/img/dataset.png)
+
 ```
 .
 ├── README.md

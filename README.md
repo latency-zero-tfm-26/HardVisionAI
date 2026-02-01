@@ -9,12 +9,20 @@ En este proyecto estará disponible una demo del modelo en la plataforma Streaml
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hardvisionai.streamlit.app/)
 
+## 🧠 Modelo
+
+Este proyecto fue entrenado con datos obtenidos mediante **web scraping**, permitiendo que el modelo identifique automáticamente el tipo de componente de PC a partir de una imagen y extraiga información relevante a partir de sus etiquetas. Está diseñado para integrarse como herramienta dentro del agente previsto para **LatencyZero**.
+
+La arquitectura del modelo se basa en una **Red Neuronal Convolucional (CNN)** construida con **Keras**, que incluye múltiples capas de convolución, normalización, pooling y capas densas, finalizando con una capa **softmax** para clasificación multiclase. Además, el sistema se complementa con **Reconocimiento Óptico de Caracteres (OCR)** mediante **EasyOCR**, lo que permite extraer todo el texto visible en los componentes para enriquecer la información obtenida.
+
+Para más detalles sobre la arquitectura del modelo y métricas de entrenamiento, ver [README en models](models/README.md)
+
 ## 🎬 Demo
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hardvisionai.streamlit.app/)
 [![YouTube Demo](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://www.youtube.com/watch?v=TU_ID_DEL_VIDEO)
 
-<!-- Álvaro: sustituye TU_ID_DEL_VIDEO por el ID real del vídeo -->
+<!-- TODO: Sustituye TU_ID_DEL_VIDEO por el ID real del vídeo -->
 
 ### ▶️ Vista previa del funcionamiento
   
@@ -34,6 +42,8 @@ Las fuentes de información incluyeron sitios web especializados en componentes 
 - [PCPartPicker](https://pcpartpicker.com)
 
 Estos portales proporcionan información detallada sobre marcas, modelos y especificaciones técnicas, lo que permitió construir un dataset representativo y de calidad para el entrenamiento del modelo.
+
+![dataset](/img/dataset.png)
 
 ## 🐍 Stack Tecnológico
 
