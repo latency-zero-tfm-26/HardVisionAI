@@ -21,8 +21,6 @@ Para más detalles sobre la arquitectura del modelo y métricas de entrenamiento
 
 [![YouTube Demo](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://youtu.be/C1xbr_65SfM)
 
-<!-- TODO: Sustituye TU_ID_DEL_VIDEO por el ID real del vídeo -->
-
 ### ▶️ Vista previa del funcionamiento
   
 https://github.com/user-attachments/assets/31468a2c-441f-4373-88c2-5cc0c963afbf
